@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-style: oblique;
+    font-size: 8px;
+    padding-top: 0;
+    
+}
+
+.text{
+    filter: blur(0.3px);
+    width: 100%;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    opacity: 90%;
+    border: 2px;
+    border-radius: 2px;
+    position:absolute;
+    z-index: 1;
+}
+
+.hr{
+text-decoration-color: blue;
+text-decoration: dotted;
+}
+
+.flex-container{
+    display: flex;
+    grid-template-columns: 35vw 30vw 35vw;
+    background-image: repeating-radial-gradient(rgb(255, 0, 208), rgb(255, 255, 255) 10%, rgb(220, 116, 255) 15%);
+
+}
+
+.left-block{
+    width: 40vw;
+    height: 3200vw;
+    justify-content:left;
+    display: flex;
+    
+}
+
+.left-bg{
+    width: 25vw;
+    height: 3200vw;
+    
+}
+
+.mid-block{
+    width: 30vw;
+    height: 100vw;
+    justify-content: center; 
+    position: relative;  
+}
+
+.mid-bg{
+    width: 25vw;
+    height: 3200vw;
+    background-image: repeating-radial-gradient(rgb(255, 0, 208), rgb(255, 255, 255) 10%, rgb(116, 255, 116) 10%);
+    display:block;  
+    filter:opacity(70)blur(15px);
+}
+
+.tunnel{
+   
+    width: 25vw;
+    height: 3200vw;
+    display: block;
+    position:sticky;
+    top:0;
+    
+    opacity: 100%;
+}
+
+.frame{
+    width:25vw;
+    height:25vw;
+    border-width:4px;
+    border-radius: 200px;
+    border-style:double;
+    
+    box-decoration-break: slice;
+    border-style: outset;
+    border-color: rgb(255, 0, 242);
+    position:sticky;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    animation:move 20s infinite alternate;
+    animation-timing-function: linear;
+   
+    
+}
+
+@keyframes move{
+    from{
+        transform: perspective(1000px) translateZ(0px) rotate(0deg);
+        
+    }
+    to{
+        transform: perspective(1000px) translateZ(2500px) rotate(100000deg);
+    }
+}
+
+.right-block{
+    width: 40vw;
+    height: 100vw;
+    justify-content:right;
+    
+    
+}
+
+.right-bg{
+    width: 20vw;
+    height: 100vw;
+    
+
+   
+}
+
