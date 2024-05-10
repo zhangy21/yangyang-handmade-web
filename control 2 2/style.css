@@ -1,0 +1,90 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    cursor: url(cat3.png),auto;
+  }
+  
+  body{
+    color:white;
+  }
+
+  .runawayBtn {
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+
+  #runaway1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  #runaway2{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+  }
+
+  #runaway3{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+
+  #runaway4{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+  }
+
+  #runaway5{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+  }
+
+  #runaway6{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+  }
+
+  #runaway7{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+  }
+
+  #runaway8{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+  }
+
+  #runaway9{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+  }
+
+  #runaway10{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+  }
+
+  .fishImage{
+    width: 100%;
+    height: auto;
+  }
+
+  .fishText{
+    font-size: 10px;
+  }
+  
