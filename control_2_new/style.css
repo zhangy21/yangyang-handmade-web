@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+  cursor: url(cat3.png),auto;
+}
+  
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 4rem; /* This will be overridden for #runaway-btn */
+  width: 0rem; /* This will be overridden for #runaway-btn */
+  font-size: 10px;
+  color: aliceblue; /* This will be overridden for #runaway-btn */
+  border-radius: 5px;
+  border: none;
+  background-color: white; /* This will be overridden for #runaway-btn */
+  cursor: pointer; /* Same as in #runaway-btn, so it's kept */
+}
+
+.dynamic-btn {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px; /* Adjust based on your design needs */
+  height: 50px; /* Adjust based on your design needs */
+  color: white;
+  background-color: transparent;
+  border: none; /* Assuming you want no border for these buttons */
+  cursor: pointer; /* To indicate it's clickable */
+}
+
+.dynamic-btn img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Removes extra space around the image */
+}
+
+.container{
+  width: 130px;
+  height: 100px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position:fixed;
+  bottom: 10vh;
+}
+
+#bcgVideo {
+  min-width: 100%;    /* Minimum width of video */
+  min-height: 100%;   /* Minimum height of video */
+
+  /* Positioning and sizing */
+  position: fixed;    /* Fixed position to cover the screen */
+  top: 50%;           /* Push down by half the screen size */
+  left: 50%;          /* Push right by half the screen size */
+  transform: translate(-50%, -50%); /* Center the video */
+
+  /* Ensure it's always behind other elements */
+  z-index: -1;
+}
+

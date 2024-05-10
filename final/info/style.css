@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    font-family:  "Questrial", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.title{
+    position:sticky;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.95rem;
+    top:10px;
+    left:20px;
+    z-index: 999;
+    letter-spacing: 0.5px;
+  }
+  
+  .contact{
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.95rem;
+    top:50px;
+    left:20px;
+    position: sticky;
+    z-index: 999;
+  }
+
+  .container{
+    padding-top: 0%;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight:bold;
+    line-height: 1.6 ;
+
+   
+  }
+
+  .CV{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    
+  }
+  
+  .EducationBackground{
+   
+    height: 150px;
+    
+  }
+
+  .WorkExperience{
+    height: 180px;
+   
+  }
+
+  .ExhibitonPrize{
+    
+  }
+
+  dt{
+    font-weight: bolder;
+    font-size: 0.95rem;
+  }
+  

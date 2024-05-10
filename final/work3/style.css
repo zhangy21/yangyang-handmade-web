@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Questrial", sans-serif;
+}
+
+.container{
+display: flex;
+justify-content: center;
+padding: 0% 0 0.5% 0%;
+align-items: flex-start;
+width: 100%;
+}
+
+.left-text{
+width: 100%;
+top: 5px;
+left:10px;
+justify-content: center;
+}
+
+
+h1{
+  position:sticky;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style:normal;
+  font-size: 0.95rem;
+  top:10px;
+  left:20px;
+  z-index: 999;
+  letter-spacing: 0.5px;
+}
+
+p{
+    font-family: "Questrial", sans-serif;
+    width: 60%;
+    position: sticky;
+    font-family: "Questrial", sans-serif;
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    justify-content: center;
+
+}
+
+.display{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.right-pics{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 280px;
+    width: 80%;
+    justify-content: center;
+    
+}
+
+.contents{
+    flex: 75%;
+    max-width: 75%;
+    top:10px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+
+

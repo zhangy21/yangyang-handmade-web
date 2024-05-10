@@ -1,0 +1,691 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+
+.title{
+  position:sticky;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.95rem;
+  top:10px;
+  left:20px;
+  z-index: 999;
+  letter-spacing: 0.5px;
+}
+
+.contact{
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.95rem;
+  top:50px;
+  left:20px;
+  position: sticky;
+  z-index: 999;
+  letter-spacing: 0.5px;
+}
+
+#DivForHoverItem{
+    background-color: rgb(195, 250, 92);
+    width: 200px;
+    height:5px;
+    top: 30px;
+    right: 0%;
+    position: fixed;
+    z-index: 999;
+     
+}
+
+#HiddenText{
+    display: none;
+    margin-inline-start: 50px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    top: 18px;
+    right: 0%;
+    font-size: 16px;
+    padding-right: 5%;
+    position: sticky;
+    color:rgb(192, 46, 255);
+    font-family: "Questrial", sans-serif;
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+    background-color: whitesmoke;
+
+}
+
+#DivForHoverItem:hover #HiddenText{
+    display: block;
+}
+
+.info{
+    position: fixed;
+    top: 8px;
+    right:80px;
+    font-family: "Questrial", sans-serif;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    z-index: 999;
+    mix-blend-mode: difference;
+    text-decoration: none;
+    color: black;
+}
+
+a{
+text-decoration: none;
+color: rgb(146, 95, 0);
+font-weight:bold;
+}
+
+.text2{
+    text-decoration:none;
+}
+
+.container-flexbox{
+position: absolute;
+top: 50px;
+width: 100vw;
+height: calc(100vh-0px);
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 1.5% 0 1.5% 0%;
+justify-content: center;
+align-items: flex-start;
+overflow-y: scroll;
+background: white;
+z-index: -1;
+}
+
+.container-content{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 2%;
+    align-items: flex-start;
+    justify-content: center;  
+
+}
+
+.container-left{
+    width: 50%;
+}
+
+.container-right{
+    width: 48%;
+}
+
+
+.work{
+    padding: 1.5% 0 1.5% 0%;
+}
+
+.block1{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work1{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver1{
+    display: block;
+    width: 100%;
+    
+}
+
+.text1{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block2{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work2{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver2{
+    display: block;
+    width: 100%;
+    
+}
+
+.text2{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block3{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work3{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver3{
+    display: block;
+    width: 100%;
+    
+}
+
+.text3{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block4{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work4{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver4{
+    display: block;
+    width: 100%;
+    
+}
+
+.text4{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block5{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work5{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver5{
+    display: block;
+    width: 100%;
+    
+}
+
+.text5{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block6{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work6{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver6{
+    display: block;
+    width: 100%;
+    
+}
+
+.text6{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block7{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work7{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver7{
+    display: block;
+    width: 100%;
+    
+}
+
+.text7{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block8{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work8{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver8{
+    display: block;
+    width: 100%;
+    
+}
+
+.text8{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block9{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work9{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver9{
+    display: block;
+    width: 100%;
+    
+}
+
+.text9{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block10{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work10{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver10{
+    display: block;
+    width: 100%;
+    
+}
+
+.text10{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block11{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work11{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver11{
+    display: block;
+    width: 100%;
+    
+}
+
+.text11{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block12{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work12{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver12{
+    display: block;
+    width: 100%;
+    
+}
+
+.text12{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block13{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work13{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver13{
+    display: block;
+    width: 100%;
+    
+}
+
+.text13{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block14{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+.work14{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver14{
+    display: block;
+    width: 100%;
+    
+}
+
+.text14{
+width:70%;
+text-align: center;
+font-family:"Questrial", sans-serif;
+font-size: 10px;
+position: relative;
+letter-spacing: 0.5px;
+}
+
+.block15{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+
+
+
+h1{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Questrial", sans-serif;
+    font-size: 10px;
+    position: relative;
+
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.block9{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+
+}
+.work7{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 0%;
+    justify-content: center;
+}
+
+.corver7{
+    display:block;
+    background-color: #dbdcde;
+    width: 1200px;
+}
+
+.work12{
+    background-color: black;
+    display:block;
+    width: 100%;
+    justify-content: center;
+}
+
+.corver12{
+    width: 100%;
+    justify-content: center;
+    display:inline-block;
+    padding: 8%;
+}
+
+.work13{
+    background-color: black;
+    display:inline-block;
+    width: 100%;
+    justify-content: center;
+}
+
+.corver13{
+    width: 100%;
+    justify-content: center;
+    display:inline-block;
+    padding: 5%;
+}
+
+img{
+    max-width: 100%;
+}
