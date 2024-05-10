@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    
+}
+
+img{
+    max-width: 100%;
+    display: block;
+
+}
+
+.text-container{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+   
+}
+
+.pic-container{
+  width: 100vw;
+    height: 100vw;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position:sticky;
+    bottom: 10vh;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+      background: rgb(35, 35, 29);
+      
+    }
+  
+    .paragraph1 {
+    display: block;
+    font-size: 40px;
+    }
+
+    .paragraph2, .paragraph3, .paragraph4, .paragraph5, .paragraph6, 
+    .paragraph7  {
+    display: none;
+    }
+
+    .banana7{
+      display:block;
+      z-index: 8;
+      justify-content: center;
+
+    }
+
+    .banana1, .banana2, .banana3, .banana4, .banana5, .banana6 {
+     display:none ;
+    }
+}
+
+@media screen and (min-width: 550px){
+  body {
+    background: rgb(84, 82, 66);
+  }
+
+  .paragraph2 {
+  display:block;
+  font-size: 35px;
+  }
+  
+  .paragraph1, .paragraph3, .paragraph4, 
+  .paragraph5, .paragraph6, .paragraph7  {
+    display: none;
+  }
+
+  .banana6{
+    display:block;
+    justify-content:center;
+
+  }
+
+  .banana1, .banana2, .banana3, .banana4, .banana5, .banana7 {
+   display:none;
+  }
+}
+
+@media screen and (min-width:700px) {
+  body {
+    background: rgb(95, 93, 79);
+  }
+
+  .paragraph3 {
+      display: block;
+      font-size: 28px;
+  }
+  
+  .paragraph1, .paragraph2, .paragraph4, 
+  .paragraph5, .paragraph6, .paragraph7  {
+    display: none;
+  }
+  .banana5{
+    display:block;
+    z-index: 4;
+    justify-content: center;
+  }
+
+  .banana1, .banana2, .banana4, .banana4, .banana6, .banana7 {
+   display:none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background: rgb(126, 123, 114);
+  }
+  .paragraph4 {
+      display: block;
+      font-size: 25px;
+  }
+  
+  .paragraph1, .paragraph2, .paragraph3, 
+  .paragraph5, .paragraph6, .paragraph7  {
+    display: none;
+  }
+  .banana4{
+    display:block;
+    z-index: 5;
+    justify-content: center;
+  }
+
+  .banana1, .banana2, .banana3, .banana5, .banana6, .banana7 {
+   display:none;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    background: rgb(144, 141, 120);
+    
+  }
+  .paragraph5 {
+      display: block;
+      font-size: 20px;
+  }
+  
+  .paragraph1, .paragraph2, .paragraph3, 
+  .paragraph4, .paragraph6, .paragraph7  {
+    display: none;
+  }
+  .banana3{
+    display:block;
+    z-index: 6;
+    justify-content: center;
+  }
+
+  .banana1, .banana2, .banana4, .banana5, .banana6, .banana7 {
+   display:none;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    background: rgb(70, 70, 70);
+    
+  }
+  .paragraph6 {
+      display: block;
+      font-size: 15px;
+  }
+  
+  .paragraph1, .paragraph2, .paragraph3, 
+  .paragraph4, .paragraph5, .paragraph7  {
+    display: none;
+  }
+
+  .banana2{
+    display:block;
+    justify-content: center;
+
+  }
+
+  .banana1, .banana3, .banana4, .banana5, .banana6, .banana7 {
+   display:none;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+      background: rgb(40, 40, 38);
+     
+    }
+    .paragraph7 {
+        display: block;
+        font-size: 10px;
+    }
+    
+    .paragraph1, .paragraph2, .paragraph3, 
+    .paragraph4, .paragraph5, .paragraph6  {
+      display: none;
+    }
+
+    .banana1{
+      display:block;
+      z-index: 3;
+      justify-content: center;
+    }
+
+    .banana2, .banana3, .banana4, .banana5, .banana6, .banana7 {
+     display:none;
+    }
+  }
+
+  
